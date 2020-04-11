@@ -16,7 +16,7 @@ Dhruvin_encoding = face_recognition.face_encodings(Dhruvin)[0]
 Bhavya = face_recognition.load_image_file('bhavya.jpeg')
 Bhavya_encoding = face_recognition.face_encodings(Bhavya)[0]
 
-hem = face_recognition.load_image_file('hem.jpg')
+hem = face_recognition.load_image_file('hem.jpeg')
 hem_encoding = face_recognition.face_encodings(hem)[0]
 
 known_face_encodings = [
