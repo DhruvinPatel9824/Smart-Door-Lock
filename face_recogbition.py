@@ -133,10 +133,10 @@ def unknown_detection():
 
 
 now = datetime.datetime.now()
-if face_names[0]=="Unknown":
-    unknown_detection()
-elif len(face_names)>0:
+if len(face_names)>0  and face_names[0] in known_face_names:
     send_sms(face_names[0],now)
+else:
+    unknown_detection()
 
 
 
