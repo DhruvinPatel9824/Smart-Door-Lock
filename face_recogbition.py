@@ -131,7 +131,7 @@ def unknown_detection():
         send_sms("Unknown Person",now)
 
 
-# time comparison
+
 now = datetime.datetime.now()
 if face_names[0]=="Unknown":
     unknown_detection()
